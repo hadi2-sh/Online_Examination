@@ -1,0 +1,18 @@
+# Online Examination System
+
+A Java Swing GUI desktop application that allows students to take timed multiple-choice exams with instant evaluation and detailed scoring breakdowns.
+
+## Features
+
+- **User Authentication**: Secure login interface for registered users.
+- **Profile Management**: Option to update display name and password before starting the exam.
+- **Interactive MCQ Engine**: Displays questions one at a time using radio buttons for option selection.
+- **Question Navigation**: Previous and Next controls to switch between questions easily.
+- **Live Countdown Timer**: 30-minute timer using `javax.swing.Timer` that auto-submits the exam when time runs out.
+- **Session Protection**: Exit confirmation dialogs to prevent accidental closing during active exams.
+- **Result & Breakdown**: Instant evaluation showing final score, time spent, and a complete question-by-question breakdown.
+
+## Tech Stack
+
+- **Language**: Java
+- **GUI Framework**: Java Swing & AWT (`CardLayout`, `JRadioButton`, `javax.swing.Timer`)
